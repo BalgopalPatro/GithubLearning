@@ -1,2 +1,5 @@
+sqs = []
 for i in range(100):
-    print(i**2)
+    sqs.append(i**2)
+
+print(sqs)
